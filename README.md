@@ -51,10 +51,10 @@ Pair up with a partner on the other side of the room and spend 5 minutes looking
 
 Additionally, some of these methods are designed to operate on a single record, and others on multiple records. Include that in your sorting.
 
-Here are the methods available. Copy paste this list into your favorite text editor. Next to each one, write the action that it describes and either "one" or "multiple"
+Here are the methods available. Copy paste this list into your favorite text editor. Next to each one, write the action that it describes and whether it deletes "one" or "multiple". 
 
 ```js
-Model.deleteMany()
+Model.deleteMany() // example: delete multiple
 Model.deleteOne()
 Model.find()
 Model.findById()
@@ -186,6 +186,7 @@ User.findOne({ email: "test@example.com" }).then(result => {
 ```
 
 </details>
+
 
 Search for a user with the password of `password1234`
 
@@ -363,7 +364,7 @@ module.exports = {
 
 Verify that this works by visiting the route for the application controller. Where are the routes defined? What url do we visit to trigger this controller action?
 
-## You do: Add models to User controller (20 min / 2:00)
+## You do: Add models to User controller (20 min / 2:20)
 
 > 10 min exercise, 10 min review
 
@@ -416,7 +417,7 @@ module.exports = {
 
 If you get done early, go ahead and do the same for the Tweets controller.
 
-## We do: Add models to Tweet controller (10 min / 2:10)
+## We do: Add models to Tweet controller (10 min / 2:30)
 
 Let's now do the same for our tweets.
 
@@ -473,13 +474,13 @@ module.exports = {
 
 Let's verify that this stuff works!
 
-## We Do: Seed the Database (20 min / 2:30)
+## Bonus: Seed the Database (20 min / 2:30)
 
 We want our database to contain data when we start our application, or when we share it with someone else and have them work on it.
 
 Instead of manually creating users and tweets by typing them into the front end, we can set up a seed file that will populate the data with some starter data.
 
-Because we're using mongoose in our project, we can also use the models we've already created to create data for us.
+Because we're using mongoose in our project, we can just use the models we've already built to create data for us.
 
 ### Set Up Seed File
 
