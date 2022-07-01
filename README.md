@@ -95,7 +95,7 @@ Now we'll take a look at how we actually write and use these queries in our
 JavaScript code. Each model represents a collection of documents in our
 database. So we always have to start with the model we want to work on.
 
-Open up [this repository](https://git.generalassemb.ly/dc-wdi-node-express/mongoose-authors) so that you can follow along.
+Open up [this repository](https://git.generalassemb.ly/sei-axolotls/mongoose-queries-practice) so that you can follow along.
 
 ### Create
 
